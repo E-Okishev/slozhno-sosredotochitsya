@@ -2,4 +2,154 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-image: var(--bg-image);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #FFF1F7;
+}
+
+.header {
+  min-block-size: 100vh;
+  display: grid;
+  align-items: start;
+  padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  padding-inline-start: 0;
+}
+
+.decorated-zone {
+  position: relative;
+}
+
+.decorated-zone:before {
+  --font-color: var(--accent-color);
+
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  height: 25px;
+  width: 25px;
+  border-block-end: 1px solid var(--font-color);
+  border-inline-start: 1px solid var(--font-color);
+}
+
+.decorated-zone:after {
+  --font-color: var(--accent-color);
+
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 25px;
+  width: 25px;
+  border-block-start: 1px solid var(--font-color);
+  border-inline-end: 1px solid var(--font-color);
+}
+
+.rec {
+  position: absolute;
+  display: var(--dislay-none);
+  align-items: center;
+  gap: 10px;
+  inset-inline-end: 29px;
+  inset-block-start: 20px;
+}
+
+.rec::before {
+  content: "rec";
+  text-transform: uppercase;
+  color: var(--accent-color);
+  line-height: 139%;
+}
+
+.rec::after {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px var(--accent-color);
+  background-color: var(--accent-color);
+  inline-size: 9px;
+  block-size: 9px;
+}
+
+.header__theme-menu {
+  justify-self: center;
+  margin-inline-start: 20px;
+  margin-block-end: 156px;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  gap: 10px;
+  user-select: none;
+}
+
+.header__theme-menu-button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  text-transform: lowercase;
+  cursor: pointer;
+  padding-inline: 12px;
+  padding-block: 3px;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--accent-color-opacity);
+}
+
+.header__theme-menu-button:focus {
+  border-block-end: 1px solid var(--font-color);
+}
+
+.header__theme-menu-button:focus-visible {
+  outline: none;
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--font-color);
+  pointer-events: none;
+}
+
+.header__title {
+  display: grid;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+  line-height: 82.5%;
+  text-shadow: 4px 4px 0px var(--accent-color);
+}
+
+.title-decor {
+  color: var(--title-color);
+}
+
+.subtitle {
+  --font-color: #000028;
+
+  font-weight: 700;
+  line-height: 130%;
+  background-color: var(--under-text-bg);
+  justify-self: end;
+  inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
+  margin-block-end: 26px;
+  color: var(--font-color);
+}
+
+.main {
+  margin-block: 60px;
+  display: grid;
+  gap: 80px;
+}
+
+.section {
+  margin-inline: 20px;
 }
