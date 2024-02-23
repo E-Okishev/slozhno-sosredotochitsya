@@ -152,4 +152,7 @@
 
 .section {
   margin-inline: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
 }
