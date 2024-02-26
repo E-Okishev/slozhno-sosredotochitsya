@@ -5,6 +5,7 @@
     --under-text-bg: #DB00FF;
     --accent-color: #FF0070;
     --accent-color-opacity: rgba(255, 0, 112, 0.4);
+    --page-color: #000028;
 
     --bg-image: url("../images/cover-image-dark.png");
 
@@ -19,6 +20,7 @@
     --under-text-bg: #FF8DCB;
     --accent-color: #FF0070;
     --accent-color-opacity: rgba(50, 49, 45, 0.4);
+    --page-color: #FFF1F7;
 
     --bg-image: url("../images/cover-image-light.png");
 

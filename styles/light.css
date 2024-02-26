@@ -14,6 +14,8 @@
   --title-color: #FFC2E6;
   --under-text-bg: #FF8DCB;
   --accent-color: #FF0070;
+  --accent-color-opacity: rgba(50, 49, 45, 0.4);
+  --page-color: #FFF1F7;
 
   --bg-image: url("../images/cover-image-light.png");
 
