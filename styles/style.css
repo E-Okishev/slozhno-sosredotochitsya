@@ -300,6 +300,11 @@
     right: 10px;
   }
 
+  .rec {
+    inset-inline-end: 19px;
+    inset-block-start: 10px;
+  }
+
   .header__theme-menu {
     margin-block-end: 65px;
     margin-block-start: 10px;
