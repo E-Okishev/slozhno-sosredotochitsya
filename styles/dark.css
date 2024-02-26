@@ -20,3 +20,18 @@
 
   --dislay-none: inline-flex;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font-color: #db00ff;
+    --title-color: #DB00FF;
+    --under-text-bg: #DB00FF;
+    --accent-color: #FF0070;
+    --accent-color-opacity: rgba(255, 0, 112, 0.4);
+    --page-color: #000028;
+
+    --bg-image: url("../images/cover-image-dark.png");
+
+    --dislay-none: inline-flex;
+  }
+}
