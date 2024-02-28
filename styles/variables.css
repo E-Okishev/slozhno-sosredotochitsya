@@ -1,6 +1,7 @@
 :root {
   --font-color: #353430;
   --title-color: #FFC2E6;
+  --text-color: var(--font-color);
   --under-text-bg: #FF8DCB;
   --accent-color: #FF0070;
   --accent-color-opacity: rgba(50, 49, 45, 0.4);
@@ -9,5 +10,8 @@
   --bg-image: url("../images/cover-image-light.png");
 
   --dislay-none: none;
+
+  --small: 10px;
+  --medium: 20px;
 }
 

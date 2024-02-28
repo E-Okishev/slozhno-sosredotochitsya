@@ -9,10 +9,11 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --font-color: #db00ff;
-  --title-color: #DB00FF;
-  --under-text-bg: #DB00FF;
-  --accent-color: #FF0070;
+  --font-color: #ff0070;
+  --title-color: #db00ff;
+  --text-color: #f1b2ce;
+  --under-text-bg: var(--font-color);
+  --accent-color: var(--font-color);
   --accent-color-opacity: rgba(255, 0, 112, 0.4);
   --page-color: #000028;
 
@@ -23,10 +24,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --font-color: #db00ff;
-    --title-color: #DB00FF;
-    --under-text-bg: #DB00FF;
-    --accent-color: #FF0070;
+    --font-color: #ff0070;
+    --title-color: #db00ff;
+    --under-text-bg: var(--font-color);
+    --accent-color: var(--font-color);
     --accent-color-opacity: rgba(255, 0, 112, 0.4);
     --page-color: #000028;
 
