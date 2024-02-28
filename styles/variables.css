@@ -1,17 +1,15 @@
 :root {
   --font-color: #353430;
-  --title-color: #FFC2E6;
+  --title-color: #ffc2e6;
   --text-color: var(--font-color);
-  --under-text-bg: #FF8DCB;
-  --accent-color: #FF0070;
+  --text-bg: var(--font-color);
+  --under-text-bg: #ff8dcb;
+  --accent-color: #ff0070;
   --accent-color-opacity: rgba(50, 49, 45, 0.4);
-  --page-color: #FFF1F7;
+  --page-color: #fff1f7;
 
   --bg-image: url("../images/cover-image-light.png");
 
   --dislay-none: none;
-
-  --small: 10px;
-  --medium: 20px;
 }
 

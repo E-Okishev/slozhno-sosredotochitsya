@@ -12,6 +12,7 @@
   --font-color: #353430;
   --title-color: #ffc2e6;
   --text-color: var(--font-color);
+  --text-bg: var(--font-color);
   --under-text-bg: #ff8dcb;
   --accent-color: #ff0070;
   --accent-color-opacity: rgba(50, 49, 45, 0.4);

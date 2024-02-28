@@ -136,7 +136,7 @@
 
 .subtitle-decor {
   background-color: var(--under-text-bg);
-  color: var(--font-color);
+  color: var(--text-bg);
 }
 
 .subtitle-position {
@@ -161,7 +161,6 @@
 }
 
 .section__title {
-  color: var(--font-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
@@ -204,8 +203,8 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.mt10 {
-  margin-top: var(--small);
+.mbs10 {
+  margin-block-start: var(--small);
 }
 
 .img-block {
@@ -275,6 +274,14 @@
 }
 
 @media (max-width: 375px) {
+  .mbs3 {
+    margin-block-start: 3px;
+  }
+
+  .mbs12 {
+    margin-block-start: 12px;
+  }
+
   .decorated-zone {
     min-block-size: 100svh;
   }
