@@ -11,5 +11,8 @@
   --bg-image: url("../images/cover-image-light.png");
 
   --dislay-none: none;
+
+  --small: 10px;
+  --medium: 20px;
 }
 
