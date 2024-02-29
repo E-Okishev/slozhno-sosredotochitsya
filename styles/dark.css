@@ -16,6 +16,7 @@
   --under-text-bg: var(--font-color);
   --accent-color: var(--font-color);
   --accent-color-opacity: rgba(255, 0, 112, 0.4);
+  --color-link-focus: var(--text-color);
   --page-color: #000028;
 
   --bg-image: url("../images/cover-image-dark.png");
@@ -32,6 +33,7 @@
     --under-text-bg: var(--font-color);
     --accent-color: var(--font-color);
     --accent-color-opacity: rgba(255, 0, 112, 0.4);
+    --color-link-focus: var(--text-color);
     --page-color: #000028;
 
     --bg-image: url("../images/cover-image-dark.png");

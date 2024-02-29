@@ -16,6 +16,7 @@
   --under-text-bg: #ff8dcb;
   --accent-color: #ff0070;
   --accent-color-opacity: rgba(50, 49, 45, 0.4);
+  --color-link-focus: var(--font-color);
   --page-color: #fff1f7;
 
   --bg-image: url("../images/cover-image-light.png");

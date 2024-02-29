@@ -7,7 +7,7 @@
 }
 
 body {
-  --font-family: 'IBM Plex Mono';
+  --font-family: 'IBM Plex Mono', sans-serif;
 
   min-inline-size: 375px;
   max-inline-size: 1440px;
@@ -28,7 +28,7 @@ p {
   margin: 0;
 }
 
-ul {
+ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
