@@ -277,6 +277,17 @@
   }
 }
 
+@media (max-width: 530px) {
+  .section__articles,
+  .section_dynamic_grid {
+    grid-template-columns: auto;
+  }
+
+  .section__title_width {
+    max-width: 355px;
+  }
+}
+
 @media (max-width: 375px) {
   .mbs-xs {
     margin-block-start: 3px;
@@ -323,20 +334,8 @@
     gap: var(--small);
   }
 
-  .section__articles {
-    grid-template-columns: auto;
-  }
-
   .section__articles:last-child {
     gap: 19px;
-  }
-
-  .section_dynamic_grid {
-    grid-template-columns: auto;
-  }
-
-  .section__title_width {
-    max-width: 355px;
   }
 
   .img-block {
