@@ -16,7 +16,7 @@
 }
 
 .decorated-zone {
-  /*block-size: 100vh;*/
+  block-size: 100vh;
   min-height: 768px;
   display: grid;
   position: relative;
@@ -256,7 +256,7 @@
 
 @media (max-width: 768px) {
   .decorated-zone {
-    min-block-size: 100vh;
+    min-block-size: 1024px;
   }
 
   .header__theme-menu {
@@ -281,6 +281,7 @@
   .section__articles,
   .section_dynamic_grid {
     grid-template-columns: auto;
+    margin-block-start: 1px;
   }
 
   .section__title_width {
@@ -289,16 +290,8 @@
 }
 
 @media (max-width: 375px) {
-  .mbs-xs {
-    margin-block-start: 3px;
-  }
-
-  .mbs-l {
-    margin-block-start: 12px;
-  }
-
   .decorated-zone {
-    min-block-size: 100svh;
+    min-block-size: 668px;
   }
 
   .decorated-zone:before {
